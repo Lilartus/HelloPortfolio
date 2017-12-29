@@ -5,9 +5,9 @@ $.getJSON("data/populations.json", function(jsonData){
   // populate colData
 
   for(var i=0; i<jsonData.USA.length; i++){
-  	
-  	var myArray = [jsonData.USA[i]["age"],  jsonData.USA[i]["value"]]
-  	colData.push(myArray)
+  
+  	var p = [jsonData.USA[i].age[0] + jsonData.USA[i].age[1] + "-" + jsonData.USA[i].age[2] + jsonData.USA[i].age[3], jsonData.USA[i].value];
+  	colData.push(p);
   }
 	
 
