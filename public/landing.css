@@ -1,6 +1,6 @@
 html
 {
-	background: #000;
+	background-image:url("assets/background.jpg");	
 }
 body {
     -webkit-animation-delay: 0.1s;
@@ -18,8 +18,10 @@ body {
 
 *, h1, h2
 {
+	
 	font-family: 'Quicksand', sans-serif;
-	font-weight: 100;
+	/*font-family: Jazz LET, fantasy; */
+	font-weight: lighter;
 	color: white;
 }
 
